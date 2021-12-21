@@ -1,0 +1,12 @@
+stages:
+  - build
+  - prepare
+  - deploy
+
+
+build for prod:
+  tags:
+    - gr1001
+  stage: build
+  script:
+    - echo "start building"   
